@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 
 const teamSchema = new mongoose.Schema({
-    name: String,
+    country: String,
     nickname: String,
-    flag: Image,
+    image: String,
     confederation: String,
     coach: String,
     captain: String,

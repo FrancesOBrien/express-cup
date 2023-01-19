@@ -2,7 +2,7 @@ const teamData = [
     {
         country: 'New Zealand',
         nickname: 'Football Ferns',
-        flag: image.png,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/New_Zealand.jpg',
         confederation: 'OFC (Host Nation)',
         coach: 'Jitka Klimkova',
         captain: 'Ali Riley',
@@ -11,7 +11,7 @@ const teamData = [
     {
         country: 'Norway',
         nickname: 'The Grasshoppers',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Norway.jpg',
         confederation:'UEFA',
         coach: 'Hege Riise',
         captain: 'Maren Mjelde',
@@ -20,7 +20,7 @@ const teamData = [
     {
         country: 'Philippines',
         nickname: 'Filipinas',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Philippines.jpg',
         confederation: 'AFC',
         coach: 'Alen Stajcic',
         captain: 'Tahnai Annis',
@@ -29,7 +29,7 @@ const teamData = [
     {
         country: 'Switzerland',
         nickname: 'La Nati',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Switzerland.jpg',
         confederation: 'UEFA',
         coach: 'Inka Grings',
         captain: 'Lia Walti',
@@ -38,8 +38,8 @@ const teamData = [
     {
         country: 'Australia',
         nickname: 'Matildas',
-        flag: ,
-        confederation: 'AFC',
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Australia.jpg',
+        confederation: 'AFC (Host Nation)',
         coach: 'Tony Gustavsson',
         captain: 'Sam Kerr',
         group: 'B',
@@ -47,7 +47,7 @@ const teamData = [
     {
         country: 'Ireland',
         nickname: 'The Girls In Green',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Ireland.jpg',
         confederation: 'UEFA',
         coach: 'Vera Pauw',
         captain: 'Katie McCabe',
@@ -56,7 +56,7 @@ const teamData = [
     {
         country: 'Nigeria',
         nickname: 'Super Falcons',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Nigeria.jpg',
         confederation: 'CAF',
         coach: 'Randy Waldrum',
         captain: 'Onome Ebi',
@@ -64,8 +64,8 @@ const teamData = [
     },
     {
         country: 'Canada',
-        nickname: '',
-        flag: ,
+        nickname: 'https://www.sciencekids.co.nz/images/pictures/flags96/Canada.jpg',
+        image: '',
         confederation: 'CONCACAF',
         coach: 'Beverly Priestman',
         captain: 'Christine Sinclair',
@@ -74,7 +74,7 @@ const teamData = [
     {
         country: 'Spain',
         nickname: 'La Roja',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Spain.jpg',
         confederation: 'UEFA',
         coach: 'Jorge Vilda',
         captain: 'Alexia Putellas',
@@ -83,7 +83,7 @@ const teamData = [
     {
         country: 'Costa Rica',
         nickname: 'La Sele/La Tricolor',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/CostaRica.jpg',
         confederation: 'CONCACAF',
         coach: 'Amelia Valverde',
         captain: 'Shirley Cruz',
@@ -92,7 +92,7 @@ const teamData = [
     {
         country: 'Zambia',
         nickname: 'Copper Queens',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Zambia.jpg',
         confederation: 'CAF',
         coach: 'Bruce Mwape',
         captain: 'Barbra Banda',
@@ -101,7 +101,7 @@ const teamData = [
     {
         country: 'Japan',
         nickname: 'Nadeshiko Japan',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Japan.jpg',
         confederation: 'AFC',
         coach: 'Futoshi Ikeda',
         captain: 'Maya Yoshida',
@@ -110,7 +110,7 @@ const teamData = [
     {
         country: 'England',
         nickname: 'The Lionesses',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/England.jpg',
         confederation: 'UEFA',
         coach: '',
         captain: '',
@@ -119,7 +119,7 @@ const teamData = [
     {
         country: 'Denmark',
         nickname: 'The Red and White',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Denmark.jpg',
         confederation: 'UEFA',
         coach: 'Lars Sondergaard',
         captain: 'Pernille Harder',
@@ -128,16 +128,16 @@ const teamData = [
     {
         country: 'China',
         nickname: 'Steel Roses',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/China.jpg',
         confederation: 'AFC',
         coach: 'Shui Qungxia',
         captain: 'Wu Haiyan',
         group: 'D',
     },
     {
-        country: 'TBD',
+        country: 'TBD: Chile || Haiti || Senegal',
         nickname: '',
-        flag: ,
+        image: '',
         confederation: '',
         coach: '',
         captain: '',
@@ -146,7 +146,7 @@ const teamData = [
     {
         country: 'United States',
         nickname: 'The Gals',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/UnitedStates.jpg',
         confederation: 'CONCACAF',
         coach: 'Vlatko Andonovski',
         captain: 'Becky Sauerbrunn',
@@ -155,7 +155,7 @@ const teamData = [
     {
         country: 'Vietnam',
         nickname: 'Nhung Nu Chien Binh Sao Vang',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Vietam.jpg',
         confederation: 'AFC',
         coach: 'Mai Duc Chung',
         captain: 'Huynh Nhu',
@@ -165,7 +165,7 @@ const teamData = [
     {
         country: 'Netherlands',
         nickname: 'Orange Lionesses',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Netherlands.jpg',
         confederation: 'UEFA',
         coach: 'Andries Jonker',
         captain: 'Sherida Spitse',
@@ -173,9 +173,9 @@ const teamData = [
     },
     
     {
-        country: 'TBD',
+        country: 'TBD: Camaroon || Portugal || Thailand',
         nickname: '',
-        flag: ,
+        image: '',
         confederation: '',
         coach: '',
         captain: '',
@@ -184,7 +184,7 @@ const teamData = [
     {
         country: 'France',
         nickname: 'Les Bleues',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/France.jpg',
         confederation: 'UEFA',
         coach: 'Corinne Diacre',
         captain: 'Wendie Renard',
@@ -193,7 +193,7 @@ const teamData = [
     {
         country: 'Jamaica',
         nickname: 'Reggae Girlz',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Jamaica.jpg',
         confederation: 'CONCACAF',
         coach: 'Lorne Donaldson',
         captain: 'Khadija Shaw',
@@ -201,15 +201,15 @@ const teamData = [
     },    {
         country: 'Brazil',
         nickname: 'Canarinhas',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Brazil.jpg',
         confederation: 'CONMEBOL',
         coach: 'Pia Sundhage',
         captain: 'Marta',
         group: 'F',
     },    {
-        country: 'TBD',
+        country: 'TBD: Taipei || Panama || Papua New Guinea || Paraguay',
         nickname: '',
-        flag: ,
+        image: '',
         confederation: '',
         coach: '',
         captain: '',
@@ -218,7 +218,7 @@ const teamData = [
     {
         country: 'Sweden',
         nickname: 'The Blue and Yellow',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Sweden.jpg',
         confederation: 'UEFA',
         coach: 'Peter Gerhardsson',
         captain: 'Caroline Seger',
@@ -227,7 +227,7 @@ const teamData = [
     {
         country: 'South Africa',
         nickname: 'Banyana Banyana',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/SouthAfrica.jpg',
         confederation: 'CAF',
         coach: 'Desiree Ellis',
         captain: 'Janine van Wyk',
@@ -236,7 +236,7 @@ const teamData = [
     {
         country: 'Italy',
         nickname: 'The Blues',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Italy.jpg',
         confederation: 'UEFA',
         coach: 'Milena Bertolini',
         captain: 'Sara Gama',
@@ -245,7 +245,7 @@ const teamData = [
     {
         country: 'Argentina',
         nickname: 'La Albiceleste',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Argentina.jpg',
         confederation: 'CONMEBOL',
         coach: 'German Portanova',
         captain: 'Vanina Correa',
@@ -254,7 +254,7 @@ const teamData = [
     {
         country: 'Germany',
         nickname: 'Die Nationalelf',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Germany.jpg',
         confederation: 'UEFA',
         coach: 'Martina Voss-Tecklenburg',
         captain: 'Alexandra Popp',
@@ -263,7 +263,7 @@ const teamData = [
     {
         country: 'Morocco',
         nickname: 'Atlas Lionesses',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Morocco.jpg',
         confederation: 'CAF',
         coach: 'Reynald Pedros',
         captain: 'Ghizlane Chebbak',
@@ -272,7 +272,7 @@ const teamData = [
     {
         country: 'Colombia',
         nickname: 'Las Chicas Superpoderosas',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/Colombia.jpg',
         confederation: 'CONMEBOL',
         coach: 'Nelson Abadia',
         captain: 'Daniela Montoya',
@@ -281,7 +281,7 @@ const teamData = [
     {
         country: 'South Korea',
         nickname: 'Taegeuk Nangja',
-        flag: ,
+        image: 'https://www.sciencekids.co.nz/images/pictures/flags96/SouthKorea.jpg',
         confederation: 'AFC',
         coach: 'Collin Bell',
         captain: 'Kim Hye-ri',
@@ -289,3 +289,5 @@ const teamData = [
     },
 
 ]
+
+module.exports = teamData;
