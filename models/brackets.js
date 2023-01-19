@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 
 const bracketSchema = new mongoose.Schema({
+    title: String,
+
     A1: String,
     A2: String,
     B1: String,
